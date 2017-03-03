@@ -16,8 +16,9 @@
         <!--         <property name="format_sql">true</property> -->
         <property name="hbm2ddl.auto">update</property>
 
-        <mapping class="com.manjesh.common.Employee" />
-        <mapping class="com.manjesh.common.Department" />
+        <mapping class="com.manjesh.common.Employee"/>
+        <mapping class="com.manjesh.common.Department"/>
+        <mapping class="com.manjesh.common.JointAccount"/>
 
     </session-factory>
 </hibernate-configuration>

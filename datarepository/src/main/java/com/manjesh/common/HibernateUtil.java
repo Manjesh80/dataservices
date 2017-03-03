@@ -18,6 +18,7 @@ public class HibernateUtil {
             configuration.configure();
             configuration.addAnnotatedClass(Employee.class);
             configuration.addAnnotatedClass(Department.class);
+            configuration.addAnnotatedClass(JointAccount.class);
 
             StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder();
             builder = builder.applySettings(configuration.getProperties());

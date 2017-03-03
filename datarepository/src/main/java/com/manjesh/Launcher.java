@@ -8,6 +8,6 @@ import com.manjesh.operations.BasicOperation;
 public class Launcher {
 
     public static void main(String[] args) {
-        BasicOperation.simpleProjection();
+        BasicOperation.addJointAccount();
     }
 }
