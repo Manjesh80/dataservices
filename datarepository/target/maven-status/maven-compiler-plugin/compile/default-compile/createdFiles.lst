@@ -1,0 +1,4 @@
+com\manjesh\common\Employee.class
+com\manjesh\operations\BasicOperation.class
+com\manjesh\common\HibernateUtil.class
+com\manjesh\common\Department.class
