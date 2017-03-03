@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/datarepository/datarepository.iml" filepath="$PROJECT_DIR$/datarepository/datarepository.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dataservices.iml" filepath="$PROJECT_DIR$/dataservices.iml" />
-    </modules>
-  </component>
-</project>
