@@ -1,4 +1,4 @@
-package com.manjesh.common;
+package com.manjesh.tests;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -17,27 +17,8 @@ public class HibernateUtil {
             Configuration configuration = new Configuration();
             configuration.configure();
 
-            configuration.addAnnotatedClass(Employee.class);
-            configuration.addAnnotatedClass(Department.class);
-            configuration.addAnnotatedClass(JointAccount.class);
-            configuration.addAnnotatedClass(Manager.class);
-            configuration.addAnnotatedClass(Degree.class);
-            configuration.addAnnotatedClass(SeniorManager.class);
-            configuration.addAnnotatedClass(JuniorManager.class);
-            configuration.addAnnotatedClass(PassportDetail.class);
-            configuration.addAnnotatedClass(Person.class);
-
             configuration.addAnnotatedClass(Detail.class);
-            configuration.addAnnotatedClass(Supervisor.class);
-
-            configuration.addAnnotatedClass(ExecutiveDetail.class);
-            configuration.addAnnotatedClass(Executive.class);
-
-            configuration.addAnnotatedClass(Actor.class);
-            configuration.addAnnotatedClass(Movie.class);
-
-            configuration.addAnnotatedClass(Developer.class);
-            configuration.addAnnotatedClass(Technology.class);
+            configuration.addAnnotatedClass(Employee.class);
 
 
             StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder();

@@ -5,6 +5,7 @@ import com.manjesh.common.Employee;
 import com.manjesh.common.EmployeeDetail;
 import com.manjesh.common.HibernateUtil;
 import com.manjesh.common.JointAccount;
+import com.manjesh.common.JuniorManager;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -15,7 +16,9 @@ import org.hibernate.criterion.Restrictions;
 import org.hibernate.transform.Transformers;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Author: mg153v (Manjesh Gowda). Creation Date: 3/3/2017.
@@ -178,4 +181,6 @@ public class BasicOperation {
         session.close();
         HibernateUtil.shutdown();
     }
+
+
 }

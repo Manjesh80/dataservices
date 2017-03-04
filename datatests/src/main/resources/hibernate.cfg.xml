@@ -7,7 +7,7 @@
         <!-- DataSource & Connection info. -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver.class">org.h2.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dataservice</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dataservice2</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
 
@@ -15,13 +15,5 @@
         <property name="show_sql">true</property>
         <!--         <property name="format_sql">true</property> -->
         <property name="hbm2ddl.auto">update</property>
-
-        <mapping class="com.manjesh.common.Employee"/>
-        <mapping class="com.manjesh.common.Department"/>
-        <mapping class="com.manjesh.common.JointAccount"/>
-        <mapping class="com.manjesh.common.Manager"/>
-        <mapping class="com.manjesh.common.SeniorManager"/>
-        <mapping class="com.manjesh.common.JuniorManager"/>
-        <mapping class="com.manjesh.common.Degree"/>
     </session-factory>
 </hibernate-configuration>
