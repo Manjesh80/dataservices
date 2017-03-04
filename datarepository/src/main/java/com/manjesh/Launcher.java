@@ -2,6 +2,7 @@ package com.manjesh;
 
 import com.manjesh.operations.BasicOperation;
 import com.manjesh.operations.CollectionOperations;
+import com.manjesh.operations.QueryingOperations;
 import com.manjesh.operations.RelationalOperations;
 
 import java.util.Random;
@@ -16,6 +17,8 @@ public class Launcher {
     public static void main(String[] args) {
         //BasicOperation.addJointAccount();
         //CollectionOperations.storeHashmap();
-        RelationalOperations.getManyToManyRelation();
+        //RelationalOperations.getManyToManyRelation();
+
+        QueryingOperations.demoNamedQueries();
     }
 }

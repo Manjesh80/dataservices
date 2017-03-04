@@ -39,6 +39,9 @@ public class HibernateUtil {
             configuration.addAnnotatedClass(Developer.class);
             configuration.addAnnotatedClass(Technology.class);
 
+            configuration.addAnnotatedClass(Product.class);
+            configuration.addAnnotatedClass(Category.class);
+
 
             StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder();
             builder = builder.applySettings(configuration.getProperties());
